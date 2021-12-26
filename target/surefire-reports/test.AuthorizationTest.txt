@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: test.AuthorizationTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 347.166 s <<< FAILURE! - in test.AuthorizationTest
+successAuth  Time elapsed: 110.385 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <ÐšÐ¾Ñ€Ð¾Ð»Ñ‘Ð²Ð° ÐžÐ»ÑŒÐ³Ð°> but was: <Êîðîë¸âà Îëüãà>
+	at test.AuthorizationTest.successAuth(AuthorizationTest.java:23)
+
+emptyInpyt  Time elapsed: 111.656 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <ÐÐµÐ²ÐµÑ€Ð½Ñ‹Ðµ Ð´Ð°Ð½Ð½Ñ‹Ðµ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ñ (Ð¾ÑÑ‚Ð°Ð»Ð¾ÑÑŒ 2 Ð¿Ð¾Ð¿Ñ‹Ñ‚ÐºÐ¸)> but was: <Íåâåðíûå äàííûå ïîëüçîâàòåëÿ (îñòàëîñü 2 ïîïûòêè)>
+	at test.AuthorizationTest.emptyInpyt(AuthorizationTest.java:43)
+
+wrongPassword  Time elapsed: 43.853 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <ÐÐµÐ²ÐµÑ€Ð½Ñ‹Ðµ Ð´Ð°Ð½Ð½Ñ‹Ðµ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ñ (Ð¾ÑÑ‚Ð°Ð»Ð¾ÑÑŒ 2 Ð¿Ð¾Ð¿Ñ‹Ñ‚ÐºÐ¸)> but was: <Íåâåðíûå äàííûå ïîëüçîâàòåëÿ (îñòàëîñü 2 ïîïûòêè)>
+	at test.AuthorizationTest.wrongPassword(AuthorizationTest.java:34)
+

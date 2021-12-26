@@ -1,0 +1,6 @@
+page\AuthPage.class
+test\BaseTest.class
+page\BasePage.class
+driver\Driver.class
+page\MainPage.class
+test\AuthorizationTest.class
