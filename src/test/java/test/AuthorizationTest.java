@@ -17,7 +17,7 @@ public class AuthorizationTest extends BaseTest {
     }
 
     @Test
-    public void successAuth(){//
+    public void successAuth(){
         mainPage = authPage.fullAuth("demo", "demo", "0000");
         String userName = authPage.checkUserName();
         Assertions.assertEquals("Королёва Ольга", userName);
